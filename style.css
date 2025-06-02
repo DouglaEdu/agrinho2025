@@ -1,0 +1,80 @@
+/* Resetando margens e espaçamento para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #e0ffe0, #fffaf0);
+  color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #228B22;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Estilo do título */
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Seção de introdução */
+.intro {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Texto da introdução */
+.intro p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilo do conteúdo principal */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* Estilo das cards */
+.card {
+  background-color: #fdf6e3;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  max-width: 300px;
+  text-align: center;
+}
+
+/* Título das cards */
+.card h2 {
+  color: #2e8b57;
+  margin-bottom: 1rem;
+}
+
+/* Imagem das cards */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #ffcc00;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}

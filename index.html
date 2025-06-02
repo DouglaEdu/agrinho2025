@@ -1,39 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Festejando a Conexão do Campo e da Cidade</title>
-  <!-- Linkando o arquivo CSS externo -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Cabeçalho fixo -->
   <header>
-    <h1>Festejando a Conexão do Campo e da Cidade</h1>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Conexão Campo e Cidade</h1>
+      </div>
+      <ul class="menu">
+        <li><a href="#campo">Vida no Campo</a></li>
+        <li><a href="#cidade">Vida na Cidade</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
+  <!-- Seção de introdução -->
   <section class="intro">
-    <p>
-      Um evento que celebra a união entre a vida rural e urbana, mostrando como tradições, culturas e saberes se encontram em harmonia.
-    </p>
+    <h2>Bem-vindo à Conexão entre o Campo e a Cidade</h2>
+    <p>Uma celebração das diferentes realidades que moldam nosso país. Vamos explorar juntos a harmonia entre a vida rural e urbana!</p>
   </section>
 
-  <section class="content">
-    <div class="card">
-      <h2>Vida no Campo</h2>
-      <img src="https://images.unsplash.com/photo-1556742045-4d3a79c04c58" alt="Campo verde">
-      <p>O campo nos presenteia com natureza, tranquilidade e tradições ricas em cultura e sustentabilidade.</p>
-    </div>
-
-    <div class="card">
-      <h2>Vida na Cidade</h2>
-      <img src="https://images.unsplash.com/photo-1506459225024-1428097a7e18" alt="Cidade vibrante">
-      <p>A cidade pulsa com inovação, diversidade e encontros que transformam o futuro.</p>
+  <!-- Seção Vida no Campo -->
+  <section id="campo" class="section">
+    <h2>Vida no Campo</h2>
+    <div class="content">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1565774635-8f8d7a1a62cf" alt="Campo Verde">
+        <p>O campo é repleto de tranquilidade e tradição. Em meio à natureza, o ritmo de vida é diferente, mais calmo e voltado para a simplicidade.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1616433483643-632f0db9a07f" alt="Cultura Rural">
+        <p>A cultura rural é rica em histórias e práticas que sustentam nossa herança. O campo nos ensina a viver com mais simplicidade e conexão com a natureza.</p>
+      </div>
     </div>
   </section>
 
+  <!-- Seção Vida na Cidade -->
+  <section id="cidade" class="section">
+    <h2>Vida na Cidade</h2>
+    <div class="content">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1511331780109-d0b5570228f1" alt="Cidade Moderna">
+        <p>A cidade é vibrante, cheia de possibilidades, inovação e encontros. A vida urbana oferece agilidade, diversidade e oportunidades.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1506459225024-1428097a7e18" alt="Cidade movimentada">
+        <p>Com uma vida acelerada e cheia de possibilidades, a cidade é o centro de ideias, negócios e avanços tecnológicos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Eventos -->
+  <section id="eventos" class="section">
+    <h2>Eventos de Conexão</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1496317688038-4b3c7cc4b4f8" alt="Evento rural">
+        <p>Festa do Interior - Um evento que traz a cultura rural para o centro da cidade!</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1517142089942-05b9d63e4c60" alt="Festival Urbano">
+        <p>Festival de Inovação - Um evento urbano que promove a troca de conhecimento e cultura.</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1517812422051-bd1b3e40e4f7" alt="Festival no campo">
+        <p>Festival de Música no Campo - A mistura perfeita entre a música e a natureza.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Contato -->
+  <section id="contato" class="section contact">
+    <h2>Entre em Contato</h2>
+    <form action="#">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
   <footer>
-    🎉 Vamos celebrar juntos essa bela conexão! 🎉
+    <p>&copy; 2025 Conexão Campo e Cidade. Todos os direitos reservados.</p>
   </footer>
+
 </body>
 </html>
